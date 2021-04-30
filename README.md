@@ -12,6 +12,10 @@ This is not designed for performance, nor for production usage. It's a fun, educ
 
 To try it out, download the repository and serve the code via a web server. This could be with [nginx](https://nginx.org/en), [apache](https://httpd.apache.org/), or if you already have [Node](https://nodejs.org/en/) installed, the [http-server](https://www.npmjs.com/package/http-server) is a great npm package for local development.
 
+Here's what it looks like in action:
+
+![screenshot of chat](./screenshot.png)
+
 ## Architecture
 
 There are only two pages, `index.html` and `chat.html`. The first is where you "register" a username, the second where you chat. Each page has a corresponding JS file with the same name, and each talks with the API via the `api-handler` abstraction.
