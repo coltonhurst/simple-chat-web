@@ -1,0 +1,55 @@
+/* site-wide styling */
+
+body {
+    font-family: Verdana,Geneva,sans-serif;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+input {
+    border: 1px solid grey;
+    font-size: 16px;
+}
+
+.content {
+    margin: 0px auto 0px auto;
+    max-width: 500px;
+}
+
+/* chat.html styling */
+
+.message {
+    margin: 0px;
+    padding: 0px;
+}
+
+.current-username-tag {
+    font-weight: bold;
+    color: blue;
+}
+
+.other-username-tag {
+    font-weight: bold;
+    color: green;
+}
+
+#chatbox {
+    border: 1px solid grey;
+    min-height: 300px;
+    max-height: 500px;
+    resize: vertical;
+    overflow: auto;
+}
+
+#error-text {
+    color: red;
+}
+
+#chatting-as {
+    font-weight: bold;
+    color: blue;
+}
+
+#message-input {
+    width: 400px;
+}

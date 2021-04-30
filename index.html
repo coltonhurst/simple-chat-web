@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Simple Chat</title>
+        <meta name="description" content="Simple Chat: An educational web chat project">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./styles/main.css">
+        <link href=data:, rel=icon>
+    </head>
+    <body>
+        <!-- content -->
+        <div class="content">
+            <!-- page header -->
+            <h1>Simple Chat</h1>
+            <p>
+                Welcome to Simple Chat! This is an educational web chat project. Pick a username and start chatting! No account creation required.
+            </p>
+            <!-- register section -->
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="enter username">
+                <button type="button" id="registerButton">Start chatting!</button>
+                <br><br>
+                <div id="error-text"></div>
+            </div>
+        </div>
+        <!-- scripts -->
+        <script type="module" src="./scripts/index.js"></script>
+    </body>
+</html>
